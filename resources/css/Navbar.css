@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 4rem;
+    width: 100%;
+    background: blue;
+    gap: 1rem;
+}
+
+.icon-container {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container img {
+    width: 50px;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    color: #c4c4c4;
+}
