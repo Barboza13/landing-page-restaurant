@@ -1,7 +1,8 @@
 <?php
 
 use App\Http\Controllers\MenuController;
-use Illuminate\Http\Request;
+use App\Http\Controllers\ReservationController;
 use Illuminate\Support\Facades\Route;
 
-Route::resource('/', MenuController::class);
+Route::resource('/reservation', ReservationController::class);
+Route::resource('/menu', MenuController::class);
