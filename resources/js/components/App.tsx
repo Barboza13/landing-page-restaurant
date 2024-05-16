@@ -5,6 +5,7 @@ import Footer from './Footer'
 import Menu from './Menu'
 import Login from './Login'
 import Reservation from './Reservation'
+import AdminPanelIndex from './adminpanel/AdminPanelIndex'
 import resImage from '../../assets/images/fondo-restaurante.jpg'
 import reservationIcon from '../../assets/icons/reservation-icon.png'
 import '../../css/App.css'
@@ -15,8 +16,9 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/menu' element={<Menu />} />
-        <Route path='/login' element={<Login />} />
         <Route path='/reservation' element={<Reservation />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/admin-panel' element={<AdminPanelIndex />}></Route>
       </Routes>
     </BrowserRouter>
   )
